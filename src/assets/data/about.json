@@ -1,0 +1,499 @@
+{
+  "breadcrumb": {
+    "nav": "Program",
+    "menu": "About us",
+    "current": "연혁"
+  },
+  "navLink": [
+    { "label": "About us", "link": "/program/about" },
+    { "label": "연혁", "link": "/program/about/history" },
+    { "label": "찾아오시는 길", "link": "/program/about/map" }
+  ],
+  "about": {
+    "imageInfo": "/images/image_about.png"
+  },
+  "history": [
+    {
+      "title": "2023",
+      "data": [
+        {
+          "month": "08",
+          "label": ["현대자동차-서울대학교 미래자동차모빌리티학과 설립 ", "현업 전문가 특강"]
+        },
+        {
+          "month": "05",
+          "label": ["2023년 현대자동차그룹 연구성과 교류회 (20기 수료식)"]
+        },
+        {
+          "month": "04",
+          "label": [
+            "현대자동차-연세대학교 모빌리티시스템융합 협동과정 설립 ",
+            "현대자동차-한양대학교 미래모빌리티학과 설립 협약식"
+          ]
+        },
+        {
+          "month": "03",
+          "label": ["고려대학교 스마트모빌리티학부 세미나"]
+        },
+        {
+          "month": "02",
+          "label": ["현대모비스-성균관대학교 미래모빌리티 채용연계 트랙 설립 협약식"]
+        },
+        {
+          "month": "01",
+          "label": [
+            "현대자동차그룹 8기 성적우수자 해외견학 (유럽)",
+            "현대자동차그룹 계약학과 3차사업 착수 (11~15기)"
+          ]
+        }
+      ],
+      "images": [
+        { "url": "/images/image_group_2023_1.png", "caption": "2023_1" },
+        { "url": "/images/image_group_2023_2.png", "caption": "2023_2" },
+        { "url": "/images/image_group_2023_3.png", "caption": "2023_3" },
+        { "url": "/images/image_group_2023_4.png", "caption": "2023_4" }
+      ]
+    },
+    {
+      "title": "2022",
+      "data": [
+        {
+          "month": "12",
+          "label": ["현대자동차그룹 계약학과 2차사업 선발종료 (6~10기)"]
+        },
+        {
+          "month": "11",
+          "label": ["2022년 현대자동차그룹 연구성과 교류회 (19기 수료식)"]
+        },
+        {
+          "month": "10",
+          "label": ["현대자동차-고려대학교 스마트모빌리티학부 1기 모집"]
+        },
+        {
+          "month": "08",
+          "label": ["현대자동차그룹 연구장학생/계약학과 전문기술교육 1기 운영"]
+        },
+        {
+          "month": "05",
+          "label": ["현대자동차-고려대학교 스마트모빌리티학부 설립 협약식"]
+        }
+      ],
+      "images": [
+        { "url": "/images/image_group_2022_1.png", "caption": "2022_1" },
+        { "url": "/images/image_group_2022_2.png", "caption": "2022_2" },
+        { "url": "/images/image_group_2022_3.png", "caption": "2022_3" }
+      ]
+    },
+    {
+      "title": "2021",
+      "data": [
+        {
+          "month": "11",
+          "label": ["2021년 현대자동차그룹 연구성과 교류회 (18기 수료식)"]
+        },
+        {
+          "month": "08",
+          "label": ["현대글로비스 연구장학생/계약학과 1기 모집"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2021_1.png", "caption": "2021_1" }]
+    },
+    {
+      "title": "2020",
+      "data": [
+        {
+          "month": "11",
+          "label": ["2020년 현대자동차그룹 Open R&D Day (17기 수료식)"]
+        },
+        {
+          "month": "08",
+          "label": ["2020년 현대자동차그룹 연구장학생 Mentoring Day 1기 운영"]
+        },
+        {
+          "month": "06",
+          "label": ["2020년 현대자동차그룹 연구장학생 현업멘토링 1기 운영"]
+        },
+        {
+          "month": "05",
+          "label": ["현대모비스-서강대학교 SW 인력양성 프로그램 1기 모집"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2020_1.png", "caption": "2020_1" }]
+    },
+    {
+      "title": "2019",
+      "data": [
+        {
+          "month": "12",
+          "label": ["현대자동차그룹 5기 성적우수자 해외견학 (중국)"]
+        },
+        {
+          "month": "11",
+          "label": ["2019년 현대자동차그룹 HMG Tech Conference (16기 수료식)"]
+        },
+        {
+          "month": "01",
+          "label": ["2019년 현대자동차그룹 미국 현지 간담회"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2019_1.png", "caption": "2019_1" }]
+    },
+    {
+      "title": "2018",
+      "data": [
+        {
+          "month": "12",
+          "label": ["현대자동차그룹 4기 성적우수자 해외견학 (중국)"]
+        },
+        {
+          "month": "11",
+          "label": ["2018년 현대자동차그룹 H.Scholar Festival & Conference (15기 수료식)"]
+        },
+        {
+          "month": "05",
+          "label": ["현대자동차 전략기술본부 연구장학생 1기 모집"]
+        },
+        {
+          "month": "01",
+          "label": [
+            "2018년 현대자동차그룹 미국 현지간담회",
+            "현대자동차그룹 계약학과 2차사업 착수 (6~10기)"
+          ]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2018_1.png", "caption": "2018_1" }]
+    },
+    {
+      "title": "2017",
+      "data": [
+        {
+          "month": "12",
+          "label": [
+            "현대자동차그룹 계약학과 1차사업 선발종료 (1~5기)",
+            "현대자동차그룹 3기 성적우수자 해외견학 (중국)"
+          ]
+        },
+        {
+          "month": "11",
+          "label": ["2017년 현대자동차그룹 장학생 수료식 (14기)"]
+        },
+        {
+          "month": "05",
+          "label": ["현대자동차 전략기술본부 연구장학생 1기 모집"]
+        },
+        {
+          "month": "01",
+          "label": ["2017년 현대자동차그룹 미국 현지 간담회"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2017_1.png", "caption": "2017_1" }]
+    },
+    {
+      "title": "2016",
+      "data": [
+        {
+          "month": "12",
+          "label": ["현대자동차그룹 2기 성적우수자 해외견학 (중국)"]
+        },
+        {
+          "month": "11",
+          "label": ["2018년 현대자동차그룹 장학생 수료식 (13기)"]
+        },
+        {
+          "month": "10",
+          "label": ["현대제철 해외 연구장학생 1기 모집"]
+        },
+        {
+          "month": "06",
+          "label": ["현대자동차그룹 연구장학생 멘토링 담임제 운영"]
+        },
+        {
+          "month": "05",
+          "label": ["현대오토에버 해외 연구장학생 1기 모집"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2016_1.png", "caption": "2016_1" }]
+    },
+    {
+      "title": "2015",
+      "data": [
+        {
+          "month": "12",
+          "label": [
+            "현대자동차그룹 1기 성적우수자 해외견학 (중국)",
+            "2015년 현대자동차그룹 장학생 수료식 (12기)"
+          ]
+        },
+        {
+          "month": "05",
+          "label": ["현대자동차그룹 연구장학생 감성 프로그램 운영"]
+        },
+
+        {
+          "month": "04",
+          "label": ["현대자동차그룹 연구장학생 인성교육캠프 운영"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2015_1.png", "caption": "2015_1" }]
+    },
+    {
+      "title": "2014",
+      "data": [
+        {
+          "month": "12",
+          "label": ["2014년 현대자동차그룹 장학생 수료식 (11기)"]
+        },
+        {
+          "month": "08",
+          "label": ["현대자동차그룹 연구장학생 비즈니스 매너교육"]
+        },
+
+        {
+          "month": "01",
+          "label": ["2014년 현대자동차그룹 11기 연구장학생 워크숍"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2014_1.png", "caption": "2014_1" }]
+    },
+    {
+      "title": "2013",
+      "data": [
+        {
+          "month": "12",
+          "label": ["2013년 현대자동차그룹 장학생 수료식 (10기)"]
+        },
+        {
+          "month": "01",
+          "label": [
+            "2013년 현대자동차그룹 10기 연구장학생 워크숍",
+            "현대자동차그룹 계약학과 1차사업 착수 (1~5기)"
+          ]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2013_1.png", "caption": "2013_1" }]
+    },
+    {
+      "title": "2012",
+      "data": [
+        {
+          "month": "12",
+          "label": ["2012년 현대자동차그룹 장학생 수료식 (9기)"]
+        },
+        {
+          "month": "04",
+          "label": ["현대건설 / 현대위아 / 현대파워텍 연구장학생 1기 모집"]
+        },
+        {
+          "month": "01",
+          "label": ["2012년 현대자동차그룹 9기 연구장학생 워크숍"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2012_1.png", "caption": "2012_1" }]
+    },
+    {
+      "title": "2011",
+      "data": [
+        {
+          "month": "12",
+          "label": ["2011년 현대자동차그룹 장학생 수료식 (8기)"]
+        },
+        {
+          "month": "10",
+          "label": ["현대자동차 / 현대모비스 해외 연구장학생 1기 모집"]
+        },
+        {
+          "month": "04",
+          "label": ["현대자동차 파이롯트 / 현대제철 / 현대모비스 / 현대하이스코 연구장학생"]
+        },
+        {
+          "month": "01",
+          "label": ["2011년 현대자동차그룹 8기 연구장학생 워크숍"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2011_1.png", "caption": "2011_1" }]
+    },
+    {
+      "title": "2010",
+      "data": [
+        {
+          "month": "12",
+          "label": ["2010년 현대자동차그룹 장학생 수료식 (7기)"]
+        },
+        {
+          "month": "01",
+          "label": ["2010년 현대자동차그룹 연구장학생 워크숍 (7기)"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2010_1.png", "caption": "2010_1" }]
+    },
+    {
+      "title": "2009",
+      "data": [
+        {
+          "month": "12",
+          "label": ["2009년 현대자동차그룹 장학생 수료식 (6기)"]
+        },
+        {
+          "month": "01",
+          "label": ["2010년 현대자동차그룹 연구장학생 워크숍 (7기)"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2009_1.png", "caption": "2009_1" }]
+    },
+    {
+      "title": "2008",
+      "data": [
+        {
+          "month": "12",
+          "label": ["2008년 현대자동차그룹 장학생 수료식 (5기)"]
+        },
+        {
+          "month": "04",
+          "label": ["현대케피코 연구장학생 1기 모집"]
+        },
+        {
+          "month": "01",
+          "label": ["2008년 현대자동차그룹 연구장학생 워크숍 (5기)"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2008_1.png", "caption": "2008_1" }]
+    },
+    {
+      "title": "2007",
+      "data": [
+        {
+          "month": "12",
+          "label": ["2007년 현대자동차그룹 장학생 수료식 (4기)"]
+        },
+        {
+          "month": "04",
+          "label": ["현대자동차 생산기술본부 연구장학생 1기 모집"]
+        },
+        {
+          "month": "01",
+          "label": ["2007년 현대자동차그룹 연구장학생 워크숍 (4기)"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2007_1.png", "caption": "2007_1" }]
+    },
+    {
+      "title": "2006",
+      "data": [
+        {
+          "month": "12",
+          "label": ["2006년 현대자동차그룹 장학생 수료식 (3기)"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2006_1.png", "caption": "2006_1" }]
+    },
+    {
+      "title": "2005",
+      "data": [
+        {
+          "month": "12",
+          "label": ["2005년 현대자동차그룹 장학생 수료식 (2기)"]
+        },
+        {
+          "month": "04",
+          "label": ["현대자동차 디자인 연구장학생 1기 모집"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2005_1.png", "caption": "2005_1" }]
+    },
+    {
+      "title": "2004",
+      "data": [
+        {
+          "month": "12",
+          "label": ["2004년 현대자동차그룹 장학생 수료식 (1기)"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2004_1.png", "caption": "2004_1" }]
+    },
+    {
+      "title": "2003",
+      "data": [
+        {
+          "month": "04",
+          "label": ["현대자동차 연구개발본부 연구장학생 1기 모집"]
+        }
+      ],
+      "images": [{ "url": "/images/image_group_2003_1.png", "caption": "2003_1" }]
+    }
+  ],
+  "map": [
+    {
+      "titleInfo": "주소",
+      "titleMap": "대중교통",
+      "address": "서울특별시 성동구 왕십리로 222 한양대학교 정몽구 미래자동차연구센터 3층",
+      "imageInfo": "/images/image_info_1.png",
+      "imageMap": "/images/image_map_1.png",
+      "info": ["서울특별시 성동구 왕십리로 222", "한양대학교 정몽구 미래자동차연구센터 3층"],
+      "titleSubway": "지하철",
+      "linkMap": "https://map.naver.com",
+      "move": [
+        {
+          "numberRow": "2호선",
+          "startPoint": "한양대역 ",
+          "numberPoint": "2",
+          "exitPoint": "번 출구",
+          "finalPoint": [
+            {
+              "icon": "/images/icon_human.svg",
+              "alt": "icon_human",
+              "title": "도보 250M"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titleInfo": "주소",
+      "titleMap": "대중교통",
+      "address": "서울특별시 성동구 왕십리로 222 한양대학교 정몽구 미래자동차연구센터 3층",
+      "imageInfo": "/images/image_info_2.png",
+      "imageMap": "/images/image_map_2.png",
+      "info": [],
+      "titleSubway": "지하철",
+      "linkMap": "https://map.naver.com",
+      "move": [
+        {
+          "numberRow": "2호선",
+          "startPoint": "낙성대역",
+          "numberPoint": "4",
+          "exitPoint": "번 출구",
+          "finalPoint": [
+            {
+              "icon": "/images/icon_train.svg",
+              "alt": "icon_train",
+              "title": "2번 마을버스 이용 유전공학관 정거장 하차"
+            },
+            {
+              "icon": "/images/icon_human.svg",
+              "alt": "icon_human",
+              "title": "도보 300M"
+            }
+          ]
+        },
+        {
+          "numberRow": "2호선",
+          "startPoint": "서울대입구역",
+          "numberPoint": "3",
+          "exitPoint": "번 출구",
+          "finalPoint": [
+            {
+              "icon": "/images/icon_train.svg",
+              "alt": "icon_train",
+              "title": "5511번 마을버스 이용 유전공학관 정거장 하자"
+            },
+            {
+              "icon": "/images/icon_human.svg",
+              "alt": "icon_human",
+              "title": "도보 300M"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

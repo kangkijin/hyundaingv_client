@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi shrink-to-fit=no">
+	<meta name="format-detection" content="telephone=no, address=no">
+	<meta name="title" content="현대NGV">
+	<meta name="description" content="현대NGV 미래R&D인재 육성프로그램">
+	<meta name="copyright" content="현대NGV">
+	<meta name="keywords" content="현대NGV,  장학생관리, 업무관리, 장학생리포트, 선발제도 관리">
+	<title>현대NGV 미래R&D인재 육성프로그램</title>
+
+	<!-- css -->
+	<link rel="stylesheet" href="../../src/select2/css/select2.css">
+	<link rel="stylesheet" href="../../src/swiper/css/swiper.css">
+	<link rel="stylesheet" href="../../src/apexchart_v3.34.0/css/apexcharts.css">
+	<link rel="stylesheet" href="../../src/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="../../css/dl_global.css">
+	<link rel="stylesheet" href="../../css/dl_common.css">
+	<link rel="stylesheet" href="../../css/dl_table.css">
+	<link rel="stylesheet" href="../../css/dl_popup.css">
+	<link rel="stylesheet" href="../../css/dl_ui.css">
+	<link rel="stylesheet" href="../../css/dl_custom.css">
+	<!-- //css -->
+
+	<!-- js -->
+	<script src="../../src/jquery/js/jquery-3.5.1.min.js"></script>
+	<script src="../../src/select2/js/select2.min.js"></script>
+	<script src="../../src/swiper/js/swiper.min.js"></script>
+	<script src="../../src/apexchart_v3.34.0/js/apexcharts.js"></script>
+	<script src="../../src/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+	<script src="../../src/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js"></script>
+	<script src="../../js/admin_header.js"></script>
+	<script src="../../js/admin_table.js"></script>
+	<script src="../../js/admin_popup.js"></script>
+	<script src="../../js/admin_form.js"></script>
+	<script src="../../js/admin_slide.js"></script>
+	<!-- //js -->
+</head>
+<body>
+	<!-- loading -->
+	<div class="loading_box" style="display: none;">
+		<div class="loader"></div>
+	</div>	
+
+	<div class="page_wrapper">
+		<!-- header -->
+		<header id="header" class="header_wrap">
+			<div class="header_top">
+				<button type="button" class="btn_menu" title="menu open">MENU OPEN</button>
+				<h1 class="header_logo">
+					<a href="javascript:void(0);" tabindex="0">미래R&D인재 육성프로그램</a>
+				</h1>
+				<div class="header_info">
+					<div class="name">
+						<div class="img_wrap xs">
+							<img src="../../images/img_myinfo.png" alt="이미지 없음">
+						</div>
+						<span>엔지비</span>님
+					</div>
+					<div class="date">
+						최종접속일 : <span>2023.12.11 11:18</span>
+					</div>
+					<div class="buttons">
+						<button type="button" class="btn_sm btn_gray">로그아웃</button>
+						<button type="button" class="btn_sm btn_gray">마이페이지</button>
+					</div>
+				</div>
+			</div>
+			<nav class="nav_wrap" tabindex="0">
+				<ul class="gnb_1depth">
+					<li>
+						<a href="javascript:void(0);"><span>코드관리</span></a>
+					</li>
+					<li>
+						<a href="javascript:void(0);"><span>제도운영</span></a>
+					</li>
+					<li>
+						<a href="javascript:void(0);"><span>홍보관리</span></a>
+					</li>
+					<li>
+						<a href="javascript:void(0);"><span>사이트관리</span></a>
+					</li>
+					<li>
+						<a href="javascript:void(0);"><span>환경설정</span></a>
+					</li>
+				</ul>
+			</nav>
+			<div class="gnb_submenu">
+				<div class="gnb_list">
+					<a href="javascript:void(0);" class="gnb_title">코드관리</a>
+					<ul class="gnb_2depth">
+						<li>
+							<a href="javascript:void(0);">대학 코드</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">참여사 코드</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">어학성적 코드</a>
+						</li>
+					</ul>
+				</div>
+				<div class="gnb_list">
+					<a href="javascript:void(0);" class="gnb_title">제도운영</a>
+					<ul class="gnb_2depth">
+						<li>
+							<a href="javascript:void(0);">장학제도 관리</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">학생현황</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">장학생 리포트</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">확인증</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">공문</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">자료실</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">설문조사</a>
+						</li>
+					</ul>
+				</div>
+				<div class="gnb_list">
+					<a href="javascript:void(0);" class="gnb_title">홍보관리</a>
+					<ul class="gnb_2depth">
+						<li>
+							<a href="javascript:void(0);">선발공고</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">주요 혜택</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">Our Story</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">Careers</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">FAQ</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">Q&A</a>
+						</li>
+					</ul>
+				</div>
+				<div class="gnb_list">
+					<a href="javascript:void(0);" class="gnb_title">사이트관리</a>
+					<ul class="gnb_2depth">
+						<li>
+							<a href="javascript:void(0);">공지사항</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">배너관리</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">Q&A</a>
+						</li>
+					</ul>
+				</div>
+				<div class="gnb_list">
+					<a href="javascript:void(0);" class="gnb_title">환경설정</a>
+					<ul class="gnb_2depth">
+						<li>
+							<a href="javascript:void(0);">계정관리</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">권한관리</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">메뉴사용 기록</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!-- //header -->
+
+		<!-- content -->
+		<section id="content" class="content_wrapper grid_content" tabindex="0">
+			<div class="page_toparea">
+				<h2 class="page_title">공문</h2>
+				<ul class="navi_list">
+					<li><a href="javascript:void(0);">HOME</a></li>
+					<li><a href="javascript:void(0);">제도운영</a></li>
+					<li><a href="javascript:void(0);">공문</a></li>
+				</ul>
+			</div>
+			<div class="box dp_block">
+				<div class="box_section">
+					<h4 class="box_title_sm">수신설정</h4>
+					<div class="scrollx_table xs">
+						<table class="tbl_row">
+							<caption>수신설정</caption>
+							<colgroup>
+								<col style="width: 150px;">
+								<col style="width: auto;">
+							</colgroup>
+							<tbody>
+								<tr>
+									<th scope="row">문서번호</th>
+									<td>NGVHY-202312-01호</td>
+								</tr>
+								<tr>
+									<th scope="row">선발회사</th>
+									<td class="td_input">
+										<div class="select_form">
+											<select class="select_custom">
+												<option value="">선발회사 선택</option>
+												<option value="">전체1</option>
+												<option value="">전체2</option>
+											</select>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">수신</th>
+									<td>현대자동차(주) 대표이사</td>
+								</tr>
+								<tr>
+									<th scope="row">참조</th>
+									<td class="td_input">
+										<div class="select2_form">
+											<select class="select_custom">
+												<option value="" selected>수신인 선택</option>
+												<option value="">강OO</option>
+											</select>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">공문확인 상태</th>
+									<td>미확인, 확인완료(2023.12.12)</td>
+								</tr>
+								<tr>
+									<th scope="row">제목</th>
+									<td class="td_input">
+										<input type="text" class="wd_p100" placeholder="제목을 입력하세요.">
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">내용</th>
+									<td class="td_input">
+										<textarea cols="30" rows="10" class="wd_p100" placeholder="내용을 입력하세요."></textarea>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">요청사항(선택)</th>
+									<td class="td_input">
+										<textarea cols="30" rows="10" class="wd_p100" placeholder="요청사항을 입력하세요."></textarea>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">장학제도</th>
+									<td>
+										<p class="check_row">
+											<input type="checkbox" id="check1" name="check">
+											<label for="check1">연구장학생</label>
+										</p>
+										<p class="check_row">
+											<input type="checkbox" id="check2" name="check">
+											<label for="check2">계약학과</label>
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">첨부파일(선택)</th>
+									<td class="td_input">
+										<div class="attach_filebox">
+											<div class="top">
+												<button type="button">
+													<input type="file" id="file" name="file" hidden>
+													<label for="file" class="btn_white">첨부파일</label>
+												</button>
+												<p class="font_point">※첨부파일을 등록해주세요.</p>
+											</div>
+											<div class="bottom">
+												<a href="javascript:void(0);">
+													첨부파일명첨부파일명.zip
+													<button type="button" class="btn_icon icon_only close">삭제</button>
+												</a>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">등록일</th>
+									<td>2023.12.21</td>
+								</tr>
+								<tr>
+									<th scope="row">등록자</th>
+									<td>엔지비</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="box_section">
+					<h4 class="box_title_sm">연구장학생 청구금액 설정</h4>
+					<div class="box_title_funtion">
+						<button type="button" class="btn_md btn_white">추가</button>
+					</div>
+					<div class="scrollx_table lg">
+						<table class="tbl_col">
+							<caption>연구장학생 청구금액 설정</caption>
+							<colgroup>
+								<col style="width: 8%;">
+								<col style="width: 8%;">
+								<col style="width: 160px;">
+								<col style="width: auto;">
+								<col style="width: 8%;">
+								<col style="width: 10%;">
+								<col style="width: 14%;">
+								<col style="width: 12%;">
+								<col style="width: 60px;">
+							</colgroup>
+							<thead>
+								<tr>
+									<th scope="col">기수</th>
+									<th scope="col">학위</th>
+									<th scope="col">인원(10명)</th>
+									<th scope="col">청구기간</th>
+									<th scope="col">청구개월</th>
+									<th scope="col">금액(1명)</th>
+									<th scope="col">총액(000,000,000원)</th>
+									<th scope="col">비고</th>
+									<th scope="col">삭제</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row" class="td_input">
+										<div class="select_form wd_p100">
+											<select class="select_custom">
+												<option>선택</option>
+												<option>선택1</option>
+											</select>
+										</div>
+									</th>
+									<td class="td_input">
+										<div class="select_form wd_p100">
+											<select class="select_custom">
+												<option selected>선택</option>
+												<option>학사</option>
+												<option>석사</option>
+												<option>박사</option>
+												<option>박사(해외)</option>
+											</select>
+										</div>
+									</td>
+									<td class="td_input">
+										<div class="text_form jc_center">
+											<p class="mg_r10">10명</p>
+											<button type="button" class="btn_md btn_white">인원설정</button>
+										</div>
+									</td>
+									<td class="td_input">
+										<div class="search_flex">
+											<input type="text" class="datepick" placeholder="시작 년,월 선택">
+											<span>~</span>
+											<input type="text" class="datepick" placeholder="종료 년,월 선택">
+										</div>
+									</td>
+									<td>00개월</td>
+									<td class="ta_r">
+										<p class="font_gray">자동 계산됩니다</p>
+									</td>
+									<td class="ta_r">
+										<p class="font_gray">자동 계산됩니다</p>
+									</td>
+									<td>금액 수정완료하였습니다.</td>
+									<td>
+										<button type="button" class="btn_icon icon_only close">삭제</button>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" class="td_input">
+										<div class="select_form wd_p100">
+											<select class="select_custom">
+												<option>선택</option>
+												<option>선택1</option>
+											</select>
+										</div>
+									</th>
+									<td class="td_input">
+										<div class="select_form wd_p100">
+											<select class="select_custom">
+												<option selected>선택</option>
+												<option>학사</option>
+												<option>석사</option>
+												<option>박사</option>
+												<option>박사(해외)</option>
+											</select>
+										</div>
+									</td>
+									<td class="td_input">
+										<div class="text_form jc_center">
+											<p class="mg_r10">24명</p>
+											<button type="button" class="btn_md btn_white">인원설정</button>
+										</div>
+									</td>
+									<td class="td_input">
+										<div class="search_flex">
+											<input type="text" class="datepick" placeholder="시작 년,월 선택">
+											<span>~</span>
+											<input type="text" class="datepick" placeholder="종료 년,월 선택">
+										</div>
+									</td>
+									<td>12개월</td>
+									<td class="ta_r">
+										1,700,000
+									</td>
+									<td class="ta_r">
+										1,700,000
+									</td>
+									<td>금액 수정완료하였습니다.</td>
+									<td>
+										<button type="button" class="btn_icon icon_only close">삭제</button>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" class="td_input">
+										<div class="select_form wd_p100">
+											<select class="select_custom">
+												<option>선택</option>
+												<option>선택1</option>
+											</select>
+										</div>
+									</th>
+									<td class="td_input">
+										<div class="select_form wd_p100">
+											<select class="select_custom">
+												<option selected>선택</option>
+												<option>학사</option>
+												<option>석사</option>
+												<option>박사</option>
+												<option>박사(해외)</option>
+											</select>
+										</div>
+									</td>
+									<td class="td_input">
+										<div class="text_form jc_center">
+											<p class="mg_r10">24명</p>
+											<button type="button" class="btn_md btn_white">인원설정</button>
+										</div>
+									</td>
+									<td class="td_input">
+										<div class="search_flex">
+											<input type="text" class="datepick" placeholder="시작 년,월 선택">
+											<span>~</span>
+											<input type="text" class="datepick" placeholder="종료 년,월 선택">
+										</div>
+									</td>
+									<td>12개월</td>
+									<td class="ta_r">
+										<p class="font_error">-1,700,000</p>
+									</td>
+									<td class="ta_r">
+										1,700,000
+									</td>
+									<td>-</td>
+									<td>
+										<button type="button" class="btn_icon icon_only close">삭제</button>
+									</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<th scope="row"></th>
+									<td></td>
+									<td>총 00명</td>
+									<td></td>
+									<td></td>
+									<td class="ta_r">+000,000</td>
+									<td class="ta_r">
+										<p class="font_point">-000,000</p>
+									</td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</div>
+				<div class="box_section">
+					<h4 class="box_title_sm">계약학과 청구금액 설정</h4>
+					<div class="box_title_funtion">
+						<button type="button" class="btn_md btn_white">추가</button>
+					</div>
+					<div class="scrollx_table lg">
+						<table class="tbl_col">
+							<caption>계약학과 청구금액 설정</caption>
+							<colgroup>
+								<col style="width: 8%;">
+								<col style="width: 8%;">
+								<col style="width: 10%;">
+								<col style="width: 160px;">
+								<col style="width: 10%;">
+								<col style="width: 10%;">
+								<col style="width: 14%;">
+								<col style="width: auto;">
+								<col style="width: 60px;">
+							</colgroup>
+							<thead>
+								<tr>
+									<th scope="col">기수</th>
+									<th scope="col">학위</th>
+									<th scope="col">선발대학</th>
+									<th scope="col">인원(000명)</th>
+									<th scope="col">청구학기</th>
+									<th scope="col">금액(1명)</th>
+									<th scope="col">총액(113,550,000원)</th>
+									<th scope="col">비고</th>
+									<th scope="col">삭제</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row" class="td_input">
+										<div class="select_form wd_p100">
+											<select class="select_custom">
+												<option>선택</option>
+												<option>선택1</option>
+											</select>
+										</div>
+									</th>
+									<td class="td_input">
+										<div class="select_form wd_p100">
+											<select class="select_custom">
+												<option selected>선택</option>
+												<option>학사</option>
+												<option>석사</option>
+												<option>박사</option>
+												<option>박사(해외)</option>
+											</select>
+										</div>
+									</td>
+									<td class="td_input">
+										<div class="select2_form wd_p100">
+											<select class="select_custom">
+												<option selected>선택</option>
+												<option>대학교1</option>
+												<option>대학교2</option>
+											</select>
+										</div>
+									</td>
+									<td class="td_input">
+										<div class="text_form jc_center">
+											<p class="mg_r10">24명</p>
+											<button type="button" class="btn_md btn_white">인원설정</button>
+										</div>
+									</td>
+									<td class="td_input">
+										<div class="select_form">
+											<select class="select_custom">
+												<option selected>2023년 1학기</option>
+												<option>2023년 2학기</option>
+											</select>
+										</div>
+									</td>
+									<td class="ta_r">
+										1,700,000
+									</td>
+									<td class="ta_r">
+										1,700,000
+									</td>
+									<td></td>
+									<td>
+										<button type="button" class="btn_icon icon_only close">삭제</button>
+									</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<th scope="row"></th>
+									<td></td>
+									<td></td>
+									<td>총 00명</td>
+									<td></td>
+									<td class="ta_r">+1,700,000</td>
+									<td class="ta_r">+1,700,000</td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</div>
+				<div class="btn_area">
+					<button type="button" class="btn_md btn_white">목록</button>
+					<button type="button" class="btn_md btn_blue">저장</button>
+				</div>
+			</div>
+		</section>
+		<!-- //content -->
+
+		<!-- footer -->
+		<div id="footer" class="footer_wrap">
+			<p>Copyright © 2024 HYUNDAI NGV COMPANY.   <br>all right reserved.</p>
+		</div>
+		<!-- //footer -->
+	</div>
+
+	<!-- 청구 인원 설정 팝업 -->
+	<!--
+	<div class="overlay_popup">
+		<div class="overlay_bg"></div>
+		<div class="popup_wrap md">
+			<h3 class="popup_title">
+				<strong>청구 인원 설정</strong>
+				<button type="button" class="btn_popupclose popup_close" title="팝업 닫기">닫기</button>
+			</h3>
+			<div class="popup_content">
+				<script>
+					//불러오기 미사용시 삭제
+					document.addEventListener('DOMContentLoaded', function () {
+						tableCheck();
+					});
+				</script>
+				<h4>선택인원 : 00/00명 (총원)</h4>
+				<div class="scrollx_table xs">
+					<table class="tbl_col tbl_hover">
+						<caption>청구 인원 설정</caption>
+						<colgroup>
+							<col style="width: 50px;"> 
+							<col style="width: auto;">
+							<col style="width: 10%;">
+							<col style="width: 10%;">
+							<col style="width: 20%;">
+							<col style="width: 20%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col">
+									<p class="check_only">
+										<input type="checkbox" id="table_check_all" name="tablecheck" class="checked_all">
+										<label for="table_check_all">check_only</label>
+									</p>
+								</th>
+								<th>장학제도</th>
+								<th>기수</th>
+								<th>학위</th>
+								<th>장학생 성명</th>
+								<th>장학생 상태</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">
+									<p class="check_only">
+										<input type="checkbox" id="table_check1" name="tablecheck" class="checked">
+										<label for="table_check1">check_only</label>
+									</p>
+								</th>
+								<td>연구장학생</td>
+								<td>20기</td>
+								<td>석사</td>
+								<td>김학생</td>
+								<td>교육중</td>
+							</tr>
+							<tr>
+								<th scope="row">
+									<p class="check_only">
+										<input type="checkbox" id="table_check2" name="tablecheck" class="checked">
+										<label for="table_check2">check_only</label>
+									</p>
+								</th>
+								<td>연구장학생</td>
+								<td>20기</td>
+								<td>석사</td>
+								<td>김학생</td>
+								<td>교육중</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="btn_area">
+				<button type="button" class="btn_md btn_white popup_close">닫기</button>
+				<button type="button" class="btn_md btn_black">선택</button>
+			</div>
+		</div>
+	</div>
+	-->
+	 
+</body>
+</html>

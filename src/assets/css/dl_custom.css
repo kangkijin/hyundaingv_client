@@ -1,0 +1,648 @@
+@charset "utf-8";
+
+/* 로그인 */
+.login_wrapper {
+  min-height: 100vh;
+}
+/* .login_content {
+  position: relative;
+	min-height: calc(100vh - 40px);
+} */
+.login_box_son {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 42px 44px 100px;
+  width: 470px;
+  max-width: 94%;
+  background-color: #fff;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+}
+.login_content {
+  display: flex;
+  height: calc(
+    100vh - 40px
+  ); /* Chiều cao của login_content là 100% viewport height trừ 40px (chiều cao của phần header) */
+}
+
+.login_box {
+  flex: 1; /* Chiếm 50% chiều rộng của login_content */
+  padding: 42px 44px 100px;
+  background-color: #fff;
+}
+
+.image_box {
+  flex: 1; /* Chiếm 50% chiều rộng của login_content */
+  background-color: #ffffff; /* Màu nền tạm thời */
+}
+.login_logo {
+  margin-bottom: 52px;
+  text-align: center;
+}
+.login_form {
+}
+.login_form > p {
+  margin-bottom: 12px;
+}
+.login_form input {
+  width: 100%;
+  height: 52px;
+  background-color: var(--border-color);
+}
+.login_form input::placeholder {
+  color: rgba(137, 141, 156, 0.5);
+}
+.btn_login {
+  width: 100%;
+  font-size: 18px;
+}
+.login_bottom {
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+  color: #898d9c;
+}
+
+/* 대시보드 - 공지사항 */
+.main_notice {
+  position: relative;
+  padding-left: 140px;
+}
+.main_notice,
+.main_alarm {
+  height: calc(100% - 48px);
+}
+.main_notice .nocnt_box,
+.main_alarm .nocnt_box {
+  min-height: 110px;
+  height: 100%;
+}
+.btn_noticewrite {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 110px;
+  height: 110px;
+  font-size: 0;
+  line-height: 0;
+  background: #c6c3f1 url(../images/img_notice.png) no-repeat center;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.notice_list {
+  width: 100%;
+  min-height: 110px;
+  font-size: 16px;
+}
+.notice_list > li {
+  border-bottom: 1px solid var(--border-color);
+}
+.notice_list > li:last-child {
+  border-bottom: none;
+}
+.notice_list > li > a {
+  position: relative;
+  display: block;
+  padding: 13px 140px 10px 0;
+}
+.notice_list > li:first-child a {
+  padding-top: 0;
+}
+.notice_list > li > a > p {
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.notice_list > li > a:hover > p {
+  color: var(--primary-color2);
+}
+.notice_list .infomation {
+  position: absolute;
+  right: 0;
+  top: 12px;
+  display: flex;
+  align-items: center;
+}
+.notice_list > li:first-child .infomation {
+  top: 0;
+  transform: none;
+}
+.notice_list .infomation > span {
+  position: relative;
+  margin-right: 10px;
+}
+.notice_list .infomation > span:last-child {
+  margin-right: 0 !important;
+}
+.notice_list .infomation .name {
+  color: #585d72;
+  font-weight: 500;
+}
+.notice_list .infomation .label {
+  padding: 1px 12px 0;
+  border-radius: 4px;
+}
+.notice_list .infomation .date {
+  padding-left: 10px;
+  color: #898d9c;
+}
+.notice_list .infomation .date::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background: rgba(0, 0, 0, 0.1);
+  transform: translateY(-50%);
+}
+
+/* 대시보드 - 알림 */
+.main_alarm .notice_list > li > a {
+  padding-right: 290px;
+}
+.main_alarm .notice_list .infomation > span {
+  margin-right: 15px;
+}
+.main_alarm .notice_list .infomation .name {
+  width: 105px;
+}
+.main_alarm .notice_list .infomation .chips {
+  width: 80px;
+}
+.main_alarm .notice_list .infomation .date {
+  padding-left: 0;
+}
+.main_alarm .notice_list .infomation .date::before {
+  display: none;
+}
+
+/* 대시보드 - 배너 */
+.banner_box {
+  padding: 0 !important;
+  height: 385px;
+  box-shadow: none;
+  overflow: hidden;
+}
+.banner_box .nocnt_box {
+  height: 100%;
+}
+.banner_slider {
+  height: 100%;
+}
+.banner_slider li {
+  position: relative;
+  overflow: hidden;
+}
+.banner_slider li img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner_slider .swiper-pagination-bullet {
+  background-color: #898d9c;
+  opacity: 1;
+}
+.banner_slider .swiper-pagination-bullet-active {
+  background-color: var(--primary-color2);
+}
+
+/* 장학금 지급 현황 */
+.total_price {
+  font-size: 22px;
+  font-weight: 600;
+}
+.total_price > span {
+  margin-left: 5px;
+  color: var(--primary-color1);
+  font-weight: inherit;
+  vertical-align: top;
+}
+.scholarships_wrapper .total_price {
+  margin-top: 16px;
+  padding: 14px;
+  text-align: center;
+  background: rgba(237, 239, 242, 0.5);
+  border-radius: 6px;
+}
+
+.scholarships_wrapper {
+  padding: 32px 50px;
+  background: rgba(237, 239, 242, 0.5);
+  border-radius: 6px;
+}
+.scholarships_wrapper .pay_remain {
+  display: flex;
+  margin-bottom: 14px;
+  justify-content: space-between;
+}
+.scholarships_wrapper .pay_remain > div {
+  position: relative;
+  padding: 0 10px;
+  color: #fff;
+  line-height: 36px;
+  border-radius: 20px;
+}
+.scholarships_wrapper .pay_remain > div::after {
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  content: '';
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border-top: 6px solid transparent;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  transform: translateX(-50%);
+}
+.scholarships_wrapper .pay_remain > div > span {
+  margin-left: 5px;
+  vertical-align: 0;
+}
+.scholarships_wrapper .pay_remain .pay {
+  background-color: var(--primary-color2);
+}
+.scholarships_wrapper .pay_remain .pay::after {
+  border-top-color: var(--primary-color2);
+}
+.scholarships_wrapper .pay_remain .remain {
+  background-color: #898d9c;
+}
+.scholarships_wrapper .pay_remain .remain::after {
+  border-top-color: #898d9c;
+}
+.scholarships_wrapper .progress_bar {
+  position: relative;
+  margin-bottom: 16px;
+  height: 12px;
+  background-color: #898d9c;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.scholarships_wrapper .progress_bar > p {
+  height: 100%;
+  background-color: var(--primary-color2);
+  border-radius: 8px;
+}
+.scholarships_wrapper .pay_count {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #d6dbe2;
+}
+.scholarships_wrapper .pay_count::before {
+  position: absolute;
+  top: -6px;
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 12px;
+  border-left: 1px solid #d6dbe2;
+  border-right: 1px solid #d6dbe2;
+}
+.scholarships_wrapper .pay_count::after {
+  position: absolute;
+  left: 50%;
+  top: -6px;
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  background-color: #d6dbe2;
+  transform: translateX(-50%);
+}
+.scholarships_wrapper .pay_count li {
+  position: relative;
+  left: 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #898d9c;
+}
+.scholarships_wrapper .pay_count li .date {
+  position: absolute;
+  left: 50%;
+  top: -50px;
+  display: none;
+  padding: 0 12px;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 40px;
+  background-color: #fff;
+  border-radius: 4px;
+  transform: translateX(-50%);
+  box-shadow: 4px 6px 4px 0px rgba(34, 34, 34, 0.07);
+}
+.scholarships_wrapper .pay_count li.on {
+  color: #222;
+  cursor: pointer;
+}
+.scholarships_wrapper .pay_count li.on:hover .date {
+  display: block;
+}
+.scholarships_wrapper .pay_count li:last-child {
+  text-align: right;
+}
+.scholarships_wrapper.bg_white {
+  padding: 0;
+}
+.scholarships_wrapper.bg_white .pay_count li:last-child .date {
+  left: initial;
+  right: 0;
+  transform: none;
+}
+
+/* 마이페이지 */
+.flex_wrap {
+  display: flex;
+}
+.flex_wrap .flexbox {
+  margin-right: 32px;
+  width: 100%;
+}
+.flex_wrap .flexbox:last-child {
+  margin-right: 0;
+}
+.flex_wrap .box {
+  display: block;
+  padding: 32px;
+}
+.flex_wrap .box_title {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.mypage_img {
+  position: relative;
+  margin: 0 auto 32px !important;
+  display: table;
+}
+.mypage_img .photo_register {
+  position: relative;
+  width: 128px;
+  height: 128px;
+}
+.mypage_img .regist {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+.mypage_img label {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(137, 141, 156, 0.5);
+  border: 1px dashed #585d72;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.mypage_img .img_wrap {
+  width: 128px;
+  height: 128px;
+  border: 1px dashed #585d72;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.mypage_img .img_wrap:has(img) {
+  border: 1px solid var(--border-color);
+}
+.mypage_img .delete {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  font-size: 0;
+  background: #d6dbe2 url(../images/icon_popupclose.svg) no-repeat center;
+  background-size: 12px;
+}
+.mypage_img .name {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+.mypage_img .name > span {
+  display: block;
+  margin-top: 2px;
+  color: #898d9c;
+  font-size: 16px;
+}
+
+.flex_wrap .text_form {
+  height: 46px;
+  justify-content: flex-start;
+  font-weight: 600;
+}
+.flex_wrap .text_form > * {
+  font-weight: 600;
+}
+.flex_wrap .text_form > *::placeholder,
+.flex_wrap .text_form > input {
+  font-weight: 400;
+}
+.flex_wrap .text_form > p {
+  width: 120px;
+  font-weight: 400;
+}
+.flex_wrap .text_form > input,
+.flex_wrap .text_form .dp_flex {
+  width: 100%;
+}
+.flex_wrap .text_form .check_row label {
+  font-weight: 600;
+}
+.flex_wrap .text_form.dp_block > p {
+  margin-bottom: 5px;
+  width: 100%;
+}
+.flex_wrap .select_form,
+.flex_wrap .select2_form {
+  width: 100%;
+}
+.flex_wrap + .btn_area {
+  margin-bottom: 60px;
+}
+
+/* 장학생 상세정보 */
+.footer_flex {
+  display: flex;
+  margin-top: 32px;
+}
+.footer_flex > div {
+  position: relative;
+  flex: 1;
+  margin-right: 32px;
+  padding: 30px;
+  color: #767676;
+  background-color: rgba(237, 239, 242, 0.7);
+}
+.footer_flex > div:last-child {
+  margin-right: 0;
+}
+.footer_flex > div > strong {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+}
+.footer_flex > div p {
+  color: #222;
+}
+.footer_flex button {
+  flex-shrink: 0;
+  padding: 0 20px;
+}
+.footer_flex.style2 {
+  margin-top: 0;
+  padding: 30px 60px;
+  border-radius: 6px;
+  background: rgba(237, 239, 242, 0.5);
+}
+.footer_flex.style2 > div {
+  margin-right: 70px;
+  padding: 0;
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  background-color: transparent;
+  border-right: 1px solid #ddd;
+}
+.footer_flex.style2 > div:last-child {
+  margin-right: 0;
+  border-right: none;
+}
+.footer_flex.style2 > div > strong {
+  margin-bottom: 3px;
+  font-size: 14px;
+  color: #262626;
+  font-weight: 400;
+}
+
+.chart_table {
+  display: flex;
+  align-items: center;
+}
+.chart_table > *:nth-child(1) {
+  flex-shrink: 0;
+}
+.chart_table > *:nth-child(2) {
+  margin-left: 24px;
+  width: 100%;
+}
+.ability_list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px 32px 8px;
+  background: rgba(237, 239, 242, 0.5);
+  border-radius: 6px;
+}
+.ability_list > li {
+  margin-bottom: 24px;
+  margin-right: 5.5%;
+  width: 29.666%;
+  color: #000;
+  font-weight: 500;
+  word-break: keep-all;
+}
+.ability_list > li:nth-child(3n) {
+  margin-right: 0;
+}
+.ability_list > li > strong {
+  display: block;
+  color: #585d72;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1600px) {
+  /* 장학생 상세정보 */
+  .footer_flex {
+    display: block;
+  }
+  .footer_flex > div {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .footer_flex > div:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer_flex.style2 {
+    display: flex;
+  }
+  .footer_flex.style2 > div {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .flex_wrap .text_form {
+    display: block;
+    margin-bottom: 15px;
+    height: auto;
+  }
+  .flex_wrap .text_form:last-child {
+    margin-bottom: 0;
+  }
+  .flex_wrap .text_form > p {
+    margin-bottom: 5px;
+    width: 100%;
+  }
+}
+
+.icon-arrow {
+  background-image: url('../images/icon_menuarrow.svg');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  &.down {
+    transform: rotate(180deg);
+  }
+}
+
+.group-form-filter > .select_component_custom {
+  border: none !important;
+  border-bottom: 2px solid #ccc !important;
+}
+
+.group-form-filter > .input-search {
+  position: relative;
+}
+
+.group-form-filter > .input-search > input {
+  border: none !important;
+  border-bottom: 2px solid #ccc !important;
+  padding-right: 30px;
+  padding-left: 5px;
+  width: 524px;
+}
+
+.group-form-filter > .input-search > .icon-search {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+
+.icon-search {
+  background-image: url('../images/icon_search.svg');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  &.down {
+    transform: rotate(180deg);
+  }
+}
